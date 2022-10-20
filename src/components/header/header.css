@@ -2,20 +2,20 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
-    }
+}
 
 .header_container {
     text-align: center;
     height: 100%;
     position: relative;
-    }
+}
 
 
-.cta{
-margin-top: 2.5rem;
-display: flex;
-gap: 1.2rem;
-justify-content: center;
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
 }
 
 .header_socials {
@@ -24,7 +24,7 @@ justify-content: center;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 3rem;
 }
 
@@ -32,11 +32,11 @@ justify-content: center;
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(-- color-primary);
-    }
+    background: var(--color-primary);
+}
 
 /* =============== ME ============== */
-.me{
+.me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -57,22 +57,22 @@ justify-content: center;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-    } 
+}
 
-/* ================ MEDIA QUERIES (MEDIUM
-DEVICES) ================= */
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
     header {
-    height: 68vh;
+        height: 68vh;
     }
 }
-    /* ================ MEDIA QUERIES (SMALL
-    DEVICES) ================= */
-    @media screen and (max-width: 600px) {
-        header {
-            height: 100vh;
-            }
-            .header_socials, .scroll_down{
-                display: none;
-            }
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
     }
+
+    .header_socials, .scroll_down {
+        display: none;
+    }
+}
