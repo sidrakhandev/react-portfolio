@@ -46,9 +46,9 @@ const Testimonials = () => {
             <article key={id} className="testimonial">
               <div className="client_avatar">
                 <img src={image} alt={name} />
-                <h5 className="client_name">{name}</h5>
-                <small className="client_review">{review}</small>
               </div>
+              <h5 className="client_name">{name}</h5>
+              <small className="client_review">{review}</small>
             </article>
           );
         })}
