@@ -11,15 +11,15 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className="container contact_container">
-        <div className="contact_option">
+        <div className="contact_options">
           <article className="contact_option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>test@gmail.com</h5>
             <a href="mailto:test@gmail.com">Send a message</a>
           </article>
           <article className="contact_option">
-            <RiMessengerLine />
+            <RiMessengerLine className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>dummyname</h5>
             <a href="https://m.me/dummyname" target="_blank">
@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact_option">
-            <BsWhatsapp />
+            <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+925678439860</h5>
             <a
